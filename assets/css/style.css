@@ -1,6 +1,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: monserat;
+  src: url(Montserrat_Bold_700.ttf);
+}
+
+.monserat {
+  font-family: monserat;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
