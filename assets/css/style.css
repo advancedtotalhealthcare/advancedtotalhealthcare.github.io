@@ -11,7 +11,13 @@
   src: url('./fonts/avenir_next.ttf');
 }
 
+.proj_green{
+  color: #009E83;
+}
 
+.proj_blue{
+  color: #025C99;
+}
 
 .monserat_bold {
   font-family: monserat_bold;
