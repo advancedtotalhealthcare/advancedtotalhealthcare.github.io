@@ -493,6 +493,22 @@ h6 {
   /*margin-bottom: -200px;*/
 }
 
+.background-image.background-image-object {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  height: 90vh;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 #hero2 {
   width: 100%;
@@ -510,9 +526,10 @@ h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background-image: url("../img/aboutus.png") center;
+  background-image: url("main.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 #hero .container {
