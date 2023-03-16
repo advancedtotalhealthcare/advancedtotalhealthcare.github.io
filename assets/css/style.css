@@ -11,6 +11,11 @@
   src: url('./fonts/avenir_next.ttf');
 }
 
+@font-face {
+  font-family: monserat_medium;
+  src: url('./fonts/Montserrat_Medium_500.ttf');
+}
+
 .proj_green{
   color: #009E83;
 }
@@ -21,6 +26,10 @@
 
 .monserat_bold {
   font-family: monserat_bold;
+}
+
+.monserat_medium {
+  font-family: monserat_medium;
 }
 
 #welcometo{
@@ -281,13 +290,16 @@ h6 {
   padding: 8px 0 8px 20px;
 }
 
-.navbar a,
+.navbar a{
+  color: #025C99;
+}
+
 .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  color: #2c4964;
+  color: #2c4964; 
   white-space: nowrap;
   transition: 0.3s;
   border-bottom: 2px solid #fff;
@@ -537,7 +549,7 @@ h6 {
   background-image: url("main.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 15px;
 }
 
 #hero .container {
