@@ -590,18 +590,7 @@ h6 {
   background: #3291e6;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-
-  #welcometo {
-    margin-top: -525px;
-  }
-}
-
-
-@media (max-width: 992px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 2048px) {
   #hero {
     margin-bottom: 0;
     height: 100vh;
@@ -623,20 +612,37 @@ h6 {
   }
 
   #welcometo {
-    margin-top: -536px;
+    margin-top: -355px;
   }
 }
 
-@media (max-height: 600px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   #hero {
-    height: 110vh;
+    margin-bottom: 0;
+    height: 100vh;
   }
+
+  #hero .container {
+    padding-bottom: 63px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
   #welcometo {
-    margin-top: -477px;
+    margin-top: -355px;
   }
 }
 
-@media (max-height: 412px) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 480px) {
   #hero {
     height: 110vh;
   }
@@ -651,7 +657,7 @@ h6 {
     margin-bottom: 30px;
   }
   #welcometo {
-    margin-top: -536px;
+    margin-top: -429px;
   }
 }
 
